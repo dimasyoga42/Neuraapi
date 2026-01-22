@@ -1,0 +1,24 @@
+{
+  "name": "NeuraApi",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "author": "dimasyoga42",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon main.js",
+    "server": "pm2 start main.js",
+    "restart": "pm2 restart main.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.90.1",
+    "bcryptjs": "^3.0.3",
+    "body-parser": "^2.2.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "nodemon": "^3.1.11"
+  }
+}
